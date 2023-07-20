@@ -1,0 +1,18 @@
+
+@import"../utilidades/variables";
+
+// Estilos de home 
+
+body{
+    color:$color-font;
+    background-color: black;
+}
+
+//estilos header general
+header{
+    h1{
+        font-size: 70px;
+        text-align: center;
+        margin-top: 25px;
+    }
+}
