@@ -1,11 +1,12 @@
 
 @import"../utilidades/variables";
+@import"scss/utilidades/extend";
 
 // Estilos de home 
 
 body{
     color:$color-font;
-    background-color: black;
+    background-color:black;
 }
 
 //estilos header general
@@ -15,4 +16,24 @@ header{
         text-align: center;
         margin-top: 25px;
     }
+}
+
+main{
+    @extend %med-main-mobile;
+    @extend %estilos;
+}
+ 
+.box-main-logo {
+    text-align: center; 
+    
+}  
+   
+
+.box-frase h2 {
+    @extend %fuentes2;
+}
+
+.footer{
+    border-top: 3px solid $color-terciario;
+    @extend %med-footer-mobile;
 }

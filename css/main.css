@@ -1,3 +1,18 @@
+main {
+  display: flex;
+  flex-direction: column; }
+
+.box-frase h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noto Serif', serif; }
+
+main {
+  height: 80vh; }
+
+.footer {
+  height: 20%; }
+
 body {
   color: white;
   background-color: black; }
@@ -6,3 +21,24 @@ header h1 {
   font-size: 70px;
   text-align: center;
   margin-top: 25px; }
+
+.box-main-logo {
+  text-align: center; }
+
+.footer {
+  border-top: 3px solid grey; }
+
+main {
+  display: flex;
+  flex-direction: column; }
+
+.box-frase h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noto Serif', serif; }
+
+main {
+  height: 80vh; }
+
+.footer {
+  height: 20%; }
