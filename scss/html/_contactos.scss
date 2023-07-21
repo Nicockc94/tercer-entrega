@@ -1,0 +1,20 @@
+
+ 
+@import"../utilidades/variables";
+@import"scss/utilidades/extend";
+
+main{
+    @extend %contacto-main-mobile;
+}
+
+.box-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.box-redes div {
+    
+}
+

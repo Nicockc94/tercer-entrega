@@ -1,4 +1,9 @@
-%estilos{
+
+
+
+
+
+%index-header-mobile{
     display: flex;
     flex-direction:column; 
 
@@ -10,12 +15,22 @@
     font-family: 'Noto Serif', serif;
 }
 
-%med-main-mobile{
+%index-main-mobile{
     height: 80vh;
 }
 
-%med-footer-mobile{
-    height: 20%;
+%index-footer-mobile {
+    height:30%;
+    display:flex;
+    flex-direction: row;
+    font-size: 11px;
+}
+
+
+%contacto-main-mobile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 
