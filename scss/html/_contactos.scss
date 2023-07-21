@@ -14,7 +14,10 @@ main{
     margin-bottom: 20px;
 }
 
-.box-redes div {
+.box-redes div img {
+    transition: transform 0.3s ease;
     
 }
-
+.box-redes div img:hover {
+    transform: scale(1.3);
+}
