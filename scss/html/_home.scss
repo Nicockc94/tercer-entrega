@@ -45,6 +45,16 @@ main{
     font-family: 'Noto Serif', serif;
     @extend %index-footer-mobile; 
 }
+.nav-link {
+    transition: transform 0.3s ease;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+
+}
+//hover nav 
+
+
 
 .footer p {
     text-align: center;
