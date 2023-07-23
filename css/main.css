@@ -8,17 +8,29 @@ header {
   font-family: 'Noto Serif', serif; }
 
 main {
-  height: 80vh; }
+  height: 70vh;
+  margin-bottom: 20px; }
 
-.footer {
-  height: 30%;
+.footer, .footer-contacto {
+  height: 30px;
   display: flex;
   flex-direction: row;
-  font-size: 11px; }
+  font-size: 11px;
+  border-top: 3px solid grey;
+  font-family: 'Noto Serif', serif; }
 
-main {
+.main-contacto {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 80vh; }
+
+.box-propuesta {
+  background-image: url(/assets/img/banners/banner-propuesta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
   text-align: center; }
 
 * {
@@ -57,17 +69,29 @@ header {
   font-family: 'Noto Serif', serif; }
 
 main {
-  height: 80vh; }
+  height: 70vh;
+  margin-bottom: 20px; }
 
-.footer {
-  height: 30%;
+.footer, .footer-contacto {
+  height: 30px;
   display: flex;
   flex-direction: row;
-  font-size: 11px; }
+  font-size: 11px;
+  border-top: 3px solid grey;
+  font-family: 'Noto Serif', serif; }
 
-main {
+.main-contacto {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 80vh; }
+
+.box-propuesta {
+  background-image: url(/assets/img/banners/banner-propuesta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
   text-align: center; }
 
 .box-redes {
@@ -82,6 +106,25 @@ main {
 .box-redes div img:hover {
   transform: scale(1.3); }
 
+.box-redes div P {
+  font-size: 20px;
+  margin-top: 10px;
+  display: none; }
+
+.box-ubicacion-mapa-img:hover {
+  transform: scale(1.3); }
+
+.box-ubicacion-mapa-img {
+  transition: transform 0.3s ease; }
+
+.box-propuesta {
+  margin-bottom: 20px;
+  font-size: 15px; }
+
+.footer-contacto {
+  border-top: 3px solid grey;
+  font-family: 'Noto Serif', serif; }
+
 header {
   display: flex;
   flex-direction: column; }
@@ -92,15 +135,123 @@ header {
   font-family: 'Noto Serif', serif; }
 
 main {
-  height: 80vh; }
+  height: 70vh;
+  margin-bottom: 20px; }
 
-.footer {
-  height: 30%;
+.footer, .footer-contacto {
+  height: 30px;
   display: flex;
   flex-direction: row;
-  font-size: 11px; }
+  font-size: 11px;
+  border-top: 3px solid grey;
+  font-family: 'Noto Serif', serif; }
 
-main {
+.main-contacto {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 80vh; }
+
+.box-propuesta {
+  background-image: url(/assets/img/banners/banner-propuesta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
   text-align: center; }
+
+header {
+  display: flex;
+  flex-direction: column; }
+
+.box-frase h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noto Serif', serif; }
+
+main {
+  height: 70vh;
+  margin-bottom: 20px; }
+
+.footer, .footer-contacto {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  border-top: 3px solid grey;
+  font-family: 'Noto Serif', serif; }
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 80vh; }
+
+.box-propuesta {
+  background-image: url(/assets/img/banners/banner-propuesta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  text-align: center; }
+
+@media (min-width: 600px) {
+  .box-redes div p {
+    display: block;
+    font-family: 'Noto Serif', serif; }
+  .main-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh; }
+  .box-ubicacion-mapa {
+    margin-bottom: 30px;
+    height: 305px; }
+  .box-ubicacion-mapa img {
+    width: 450px;
+    text-align: center; }
+  .box-propuesta {
+    margin-bottom: 30px; }
+  .footer-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr 1 fr; } }
+
+header {
+  display: flex;
+  flex-direction: column; }
+
+.box-frase h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noto Serif', serif; }
+
+main {
+  height: 70vh;
+  margin-bottom: 20px; }
+
+.footer, .footer-contacto {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  border-top: 3px solid grey;
+  font-family: 'Noto Serif', serif; }
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 80vh; }
+
+.box-propuesta {
+  background-image: url(/assets/img/banners/banner-propuesta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  text-align: center; }
+
+@media (min-width: 1024px) {
+  .box-main {
+    background-color: aqua; } }

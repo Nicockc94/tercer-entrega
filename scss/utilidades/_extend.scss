@@ -16,22 +16,48 @@
 }
 
 %index-main-mobile{
-    height: 80vh;
+    height: 70vh;
+    
+    margin-bottom: 20px;
 }
 
 %index-footer-mobile {
-    height:30%;
+    height: 30px;;
     display:flex;
     flex-direction: row;
     font-size: 11px;
-}
+    border-top: 3px solid $color-terciario;
+    font-family: 'Noto Serif', serif;
+   
+   }
 
 
 %contacto-main-mobile{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 10px;
+    height: 80vh;
 }
+
+%contacto-main-tablet{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh;
+
+}
+
+%propuesta{
+    background-image:url(/assets/img/banners/banner-propuesta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px; 
+    text-align: center;
+    
+}
+
+
 
 
 

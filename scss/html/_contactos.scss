@@ -3,7 +3,7 @@
 @import"../utilidades/variables";
 @import"scss/utilidades/extend";
 
-main{
+.main-contacto{
     @extend %contacto-main-mobile;
 }
 
@@ -20,4 +20,33 @@ main{
 }
 .box-redes div img:hover {
     transform: scale(1.3);
+}
+.box-redes div P {
+    font-size: 20px;
+    margin-top: 10px;
+    display:none;
+}
+.box-ubicacion-mapa-img:hover{
+    transform: scale(1.3);
+
+}
+.box-ubicacion-mapa-img{
+    transition: transform 0.3s ease;
+
+}
+.box-propuesta {
+   // background-image:url(/assets/img/banners/banner-propuesta.jpg);
+    
+    margin-bottom: 20px;
+    font-size: 15px;
+    @extend %propuesta;
+
+
+}
+
+.footer-contacto{
+   border-top: 3px solid $color-terciario;
+   font-family: 'Noto Serif', serif;
+   @extend %index-footer-mobile;
+   
 }
