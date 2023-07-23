@@ -16,7 +16,6 @@ main {
   display: flex;
   flex-direction: row;
   font-size: 11px;
-  border-top: 3px solid grey;
   font-family: 'Noto Serif', serif; }
 
 .main-contacto {
@@ -52,7 +51,6 @@ header h1 {
   margin-bottom: 50px; }
 
 .footer {
-  border-top: 3px solid grey;
   font-family: 'Noto Serif', serif; }
 
 .footer p {
@@ -77,7 +75,6 @@ main {
   display: flex;
   flex-direction: row;
   font-size: 11px;
-  border-top: 3px solid grey;
   font-family: 'Noto Serif', serif; }
 
 .main-contacto {
@@ -143,7 +140,6 @@ main {
   display: flex;
   flex-direction: row;
   font-size: 11px;
-  border-top: 3px solid grey;
   font-family: 'Noto Serif', serif; }
 
 .main-contacto {
@@ -178,7 +174,6 @@ main {
   display: flex;
   flex-direction: row;
   font-size: 11px;
-  border-top: 3px solid grey;
   font-family: 'Noto Serif', serif; }
 
 .main-contacto {
@@ -209,7 +204,8 @@ main {
     height: 305px; }
   .box-ubicacion-mapa img {
     width: 450px;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 30px; }
   .box-propuesta {
     margin-bottom: 30px; }
   .footer-contacto {
@@ -235,7 +231,6 @@ main {
   display: flex;
   flex-direction: row;
   font-size: 11px;
-  border-top: 3px solid grey;
   font-family: 'Noto Serif', serif; }
 
 .main-contacto {
@@ -253,5 +248,19 @@ main {
   text-align: center; }
 
 @media (min-width: 1024px) {
-  .box-main {
-    background-color: aqua; } }
+  .box-main-logo {
+    margin-bottom: 5px; }
+  .box-main-logo img {
+    padding-top: 14px;
+    width: 400px;
+    height: 400px; }
+  .footer {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 35px;
+    gap: 2px; }
+  .footer p {
+    align-items: end;
+    height: 35px; } }

@@ -6,10 +6,32 @@
 
 
 @media (min-width: 1024px){
-    .box-main{
-            
-            background-color: aqua;
-        
-        
+
+    //medidas de index 
+    
+
+    .box-main-logo{
+        margin-bottom: 5px;
     }
+    .box-main-logo img{
+        padding-top: 14px;
+        width: 400px;
+        height: 400px;
+      
+    }
+    .footer{
+        @include footer-font;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        height: 35px;
+        gap: 2px;
+    }
+    .footer p {
+      align-items: end;
+        height: 35px;
+       
+    }
+    
+
 }
