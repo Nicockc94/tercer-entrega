@@ -1,0 +1,78 @@
+@import"../utilidades/variables";
+@import"scss/utilidades/extend";
+@import"../utilidades/mixin";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+.main-productos{
+    height: 90vh;
+   
+
+
+}
+
+.descripcion-productos h2{
+    
+    font-size: 45px;
+    text-align: center;
+
+      
+    
+}
+.descripcion-fertilizantes{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+.descripcion-productos p {
+    @extend %fuentes3;
+
+}
+
+.box-productos-lista{
+    @extend %grid-productos;
+    width: 100%;
+    justify-items: center
+    
+    
+}
+
+.box-productos-lista li {
+    @include boton-producto;
+    transition: transform 0.3s ease;
+   
+}
+.box-productos-lista li:hover{
+    transform: scale(1.2);
+}
+.marcas{
+    @extend %grid-productos; 
+    justify-content: center
+}
+
+.marcas-fertilizantes{
+    @extend %box-marcas;
+   
+}
+.marcas-fertilizantes img {
+align-items: center;
+
+}
+
+.box-productes img {
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
+  transition: box-shadow 0.3s;
+}
+
+.box-productes img:hover {
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7);
+}
+
+.marcas-sustratos{
+    @extend %box-marcas;
+
+}

@@ -14,10 +14,14 @@
     text-align: center;
     font-family: 'Noto Serif', serif;
 }
+%fuentes3{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
 
 %index-main-mobile{
     height: 70vh;
-    
     margin-bottom: 20px;
 }
 %footer-deskop{
@@ -33,7 +37,6 @@
     font-family: 'Noto Serif', serif;
    
    }
-
 
 %contacto-main-mobile{
     display: flex;
@@ -59,7 +62,23 @@
     text-align: center;
 }
 
+// estilos de productos 
 
 
+%grid-productos{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1 fr 1fr;
+    
+  
+}
+
+%box-marcas{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   row-gap: 20px;
+   margin-bottom: 25px;
+}
 
 
