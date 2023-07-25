@@ -1,0 +1,60 @@
+@import"../utilidades/variables";
+@import"../utilidades/extend";
+@import"../utilidades/mixin";
+@import"../html/mqtablet";
+@import"../html/mqdesktop";
+
+
+
+.main-propuesta{
+    height:100%;
+}
+
+.box-formulario{
+    text-align: center;
+    justify-content: center;
+       
+}
+
+.box-propuesta-titulo h2 {
+    @include titulosh2;
+}
+
+.box-propuesta-titulo p {
+    @include texto;
+
+}
+.frase-final{
+    @include texto;
+}
+.box-formulario label {
+    margin-bottom: 15px;
+}
+form p {
+    @include texto;
+} 
+
+h2{
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
+    transition: box-shadow 0.3s;
+}
+
+h2:hover{
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7);
+
+}
+
+input{
+     
+    transition: box-shadow 0.3s;
+}
+
+input:hover{
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
+    transition: box-shadow 0.3s;
+}
+
+textarea:hover{
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
+    transition: box-shadow 0.3s;
+}

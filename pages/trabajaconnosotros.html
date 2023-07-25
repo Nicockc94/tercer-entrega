@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bangers&family=Noto+Serif:ital,wght@1,100&family=Roboto:wght@700&family=Source+Code+Pro:wght@600&family=Tilt+Prism&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Document</title>
+    <title>Empleo: Growshop</title>
 </head>
 <body>
     <header class="header-general">
@@ -36,11 +36,10 @@
   </nav>
 
           <main class="main-propuesta">
+            <div class="box-propuesta-titulo">
             <h2>Te Gustaria ser parte de nuestro gran staff ? </h2>
-            <p>Hoy en dia es muy importante contar con personal capacitado y en muchos puestos de trabajo te exigen multimos conocimientos
-                en este caso , Nuestras busquedas se enfocan en encontrar Material humano , a que nos referimos ? a que todo se puede aprender
-                si te gustaria trabajar en un ambiente completamente amigable y te interesa capacitarte en alguno de los siguientes puestos a cubrir , no dudes en enviarnos tu cv 
-                con nombre y apellido </p>
+            <p>Podes enviarnos tu curriculum vitae por este medio o por nuestras redes sociales</p>
+            </div>
 
                 <div class="box-formulario">
                   <form action="/enviar_formulario.php" method="post" enctype="multipart/form-data">
@@ -52,8 +51,8 @@
                     <input type="email" id="email" name="email" required>
                     <br>
             
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="10" cols="30" required></textarea>
+                    <p>Contanos un poco sobre vos!</p>
+                    <textarea id="mensaje" name="mensaje" rows="10" cols="30"required></textarea>
                     <br>
             
                     <label for="cv">Cargar CV:</label>
@@ -62,6 +61,10 @@
             
                     <input type="submit" value="Enviar">
                 </form>
+
+                <div class="frase-final">
+                  <p>Si tu perfil coincide con alguna de nuestras busquedas te estaremos contactando a la breveda</p>
+                </div>
     
               </div>
           </main>
