@@ -7,7 +7,8 @@
 
 @media (min-width: 1024px){
 
-    //medidas de index 
+
+  //medidas de index 
     
 
     .box-main-logo{
@@ -51,5 +52,35 @@
         font-size: 30px;
     }
 
+//medidas de productos 
+
+.marcas-fertilizantes{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+.marcas-sustratos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.marcas-indor{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+        
+    }
+    .marcas-parafernalia{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+
 

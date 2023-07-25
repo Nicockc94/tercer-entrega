@@ -1,5 +1,6 @@
 @import"../utilidades/variables";
-@import"scss/utilidades/extend";
+@import"../utilidades/extend";
+
 
 
 @media (min-width: 600px) {
@@ -36,9 +37,40 @@
     
    }
 
-    
-   }
+}
+   //estilos de productos
+   @media (min-width: 600px) {
 
+      
+      
+     .marcas-fertilizantes{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;  
+      }
+
+      .marcas-sustratos{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
+      }
+
+      .marcas-indor{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
+      }
+
+      .marcas-parafernalia{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
+      }
+      .box-productos img {
+         width: 291px;
+      }
+
+  }
 
 
 

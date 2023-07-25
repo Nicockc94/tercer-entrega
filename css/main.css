@@ -170,7 +170,8 @@ main {
   transform: scale(1.4); }
 
 .footer-contacto {
-  font-family: 'Noto Serif', serif; }
+  font-family: 'Noto Serif', serif;
+  text-align: center; }
 
 header {
   display: flex;
@@ -295,6 +296,26 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 1fr 1 fr; } }
 
+@media (min-width: 600px) {
+  .marcas-fertilizantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-sustratos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-indor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-parafernalia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .box-productos img {
+    width: 291px; } }
+
 header {
   display: flex;
   flex-direction: column; }
@@ -371,7 +392,23 @@ main {
     height: 35px;
     gap: 2px; }
   .box-propuesta h2 {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .marcas-fertilizantes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .marcas-sustratos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .marcas-indor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .marcas-parafernalia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
 
 header {
   display: flex;
@@ -424,6 +461,201 @@ main {
   row-gap: 20px;
   margin-bottom: 25px; }
 
+header {
+  display: flex;
+  flex-direction: column; }
+
+.box-frase h2, .descripcion-productos p {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Noto Serif', serif; }
+
+.descripcion-indor {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noto Serif', serif; }
+
+main {
+  height: 70vh;
+  margin-bottom: 20px; }
+
+.footer, .footer-contacto {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  font-family: 'Noto Serif', serif; }
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 80vh; }
+
+.box-propuesta {
+  background-image: url(/assets/img/banners/banner-propuesta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  text-align: center; }
+
+.box-productos-lista, .marcas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1 fr 1fr; }
+
+.marcas-fertilizantes, .marcas-sustratos, .marcas-indor, .marcas-parafernalia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 20px;
+  margin-bottom: 25px; }
+
+@media (min-width: 600px) {
+  .box-redes div p {
+    display: block;
+    font-family: 'Noto Serif', serif; }
+  .main-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh; }
+  .box-ubicacion-mapa {
+    margin-bottom: 30px;
+    height: 305px; }
+  .box-ubicacion-mapa img {
+    width: 450px;
+    text-align: center;
+    margin-bottom: 60px; }
+  .footer-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr 1 fr; } }
+
+@media (min-width: 600px) {
+  .marcas-fertilizantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-sustratos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-indor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-parafernalia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .box-productos img {
+    width: 291px; } }
+
+header {
+  display: flex;
+  flex-direction: column; }
+
+.box-frase h2, .descripcion-productos p {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Noto Serif', serif; }
+
+.descripcion-indor {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noto Serif', serif; }
+
+main {
+  height: 70vh;
+  margin-bottom: 20px; }
+
+.footer, .footer-contacto {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  font-family: 'Noto Serif', serif; }
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 80vh; }
+
+.box-propuesta {
+  background-image: url(/assets/img/banners/banner-propuesta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  text-align: center; }
+
+.box-productos-lista, .marcas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1 fr 1fr; }
+
+.marcas-fertilizantes, .marcas-sustratos, .marcas-indor, .marcas-parafernalia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 20px;
+  margin-bottom: 25px; }
+
+@media (min-width: 1024px) {
+  .box-main-logo {
+    margin-bottom: 5px; }
+  .box-main-logo img {
+    padding-top: 14px;
+    width: 400px;
+    height: 400px; }
+  .footer {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 35px;
+    gap: 2px; }
+  .footer p {
+    align-items: end;
+    height: 35px; }
+  .footer-contacto {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 35px;
+    gap: 2px; }
+  .box-propuesta h2 {
+    font-size: 30px; }
+  .marcas-fertilizantes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .marcas-sustratos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .marcas-indor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .marcas-parafernalia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
+
+a {
+  text-decoration: none; }
+
+a:link {
+  color: white; }
+
+a:visited {
+  color: white; }
+
 * {
   padding: 0px;
   margin: 0px;
@@ -471,9 +703,9 @@ main {
 .marcas-fertilizantes img {
   align-items: center; }
 
-.box-productes img {
+.box-productos img {
   box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
   transition: box-shadow 0.3s; }
 
-.box-productes img:hover {
+.box-productos img:hover {
   box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7); }
