@@ -2,15 +2,15 @@ header {
   display: flex;
   flex-direction: column; }
 
-.box-frase h2 {
-  font-size: 30px;
+.box-frase h2, .descripcion-productos p {
+  font-size: 20px;
   text-align: center;
   font-family: 'Noto Serif', serif; }
 
-.descripcion-productos p {
-  font-size: 15px;
+.descripcion-indor {
+  font-size: 30px;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Noto Serif', serif; }
 
 main {
   height: 70vh;
@@ -42,7 +42,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1 fr 1fr; }
 
-.marcas-fertilizantes, .marcas-sustratos {
+.marcas-fertilizantes, .marcas-sustratos, .marcas-indor, .marcas-parafernalia {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -84,15 +84,15 @@ header {
   display: flex;
   flex-direction: column; }
 
-.box-frase h2 {
-  font-size: 30px;
+.box-frase h2, .descripcion-productos p {
+  font-size: 20px;
   text-align: center;
   font-family: 'Noto Serif', serif; }
 
-.descripcion-productos p {
-  font-size: 15px;
+.descripcion-indor {
+  font-size: 30px;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Noto Serif', serif; }
 
 main {
   height: 70vh;
@@ -124,7 +124,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1 fr 1fr; }
 
-.marcas-fertilizantes, .marcas-sustratos {
+.marcas-fertilizantes, .marcas-sustratos, .marcas-indor, .marcas-parafernalia {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -152,6 +152,7 @@ main {
   transform: scale(1.2); }
 
 .box-ubicacion-mapa-img {
+  margin-bottom: 30px;
   transition: transform 0.3s ease; }
 
 .box-propuesta {
@@ -175,15 +176,15 @@ header {
   display: flex;
   flex-direction: column; }
 
-.box-frase h2 {
-  font-size: 30px;
+.box-frase h2, .descripcion-productos p {
+  font-size: 20px;
   text-align: center;
   font-family: 'Noto Serif', serif; }
 
-.descripcion-productos p {
-  font-size: 15px;
+.descripcion-indor {
+  font-size: 30px;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Noto Serif', serif; }
 
 main {
   height: 70vh;
@@ -215,7 +216,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1 fr 1fr; }
 
-.marcas-fertilizantes, .marcas-sustratos {
+.marcas-fertilizantes, .marcas-sustratos, .marcas-indor, .marcas-parafernalia {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -226,15 +227,15 @@ header {
   display: flex;
   flex-direction: column; }
 
-.box-frase h2 {
-  font-size: 30px;
+.box-frase h2, .descripcion-productos p {
+  font-size: 20px;
   text-align: center;
   font-family: 'Noto Serif', serif; }
 
-.descripcion-productos p {
-  font-size: 15px;
+.descripcion-indor {
+  font-size: 30px;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Noto Serif', serif; }
 
 main {
   height: 70vh;
@@ -266,7 +267,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1 fr 1fr; }
 
-.marcas-fertilizantes, .marcas-sustratos {
+.marcas-fertilizantes, .marcas-sustratos, .marcas-indor, .marcas-parafernalia {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -288,7 +289,7 @@ main {
   .box-ubicacion-mapa img {
     width: 450px;
     text-align: center;
-    margin-bottom: 30px; }
+    margin-bottom: 60px; }
   .footer-contacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -298,15 +299,15 @@ header {
   display: flex;
   flex-direction: column; }
 
-.box-frase h2 {
-  font-size: 30px;
+.box-frase h2, .descripcion-productos p {
+  font-size: 20px;
   text-align: center;
   font-family: 'Noto Serif', serif; }
 
-.descripcion-productos p {
-  font-size: 15px;
+.descripcion-indor {
+  font-size: 30px;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Noto Serif', serif; }
 
 main {
   height: 70vh;
@@ -338,7 +339,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1 fr 1fr; }
 
-.marcas-fertilizantes, .marcas-sustratos {
+.marcas-fertilizantes, .marcas-sustratos, .marcas-indor, .marcas-parafernalia {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -376,15 +377,15 @@ header {
   display: flex;
   flex-direction: column; }
 
-.box-frase h2 {
-  font-size: 30px;
+.box-frase h2, .descripcion-productos p {
+  font-size: 20px;
   text-align: center;
   font-family: 'Noto Serif', serif; }
 
-.descripcion-productos p {
-  font-size: 15px;
+.descripcion-indor {
+  font-size: 30px;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Noto Serif', serif; }
 
 main {
   height: 70vh;
@@ -416,7 +417,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1 fr 1fr; }
 
-.marcas-fertilizantes, .marcas-sustratos {
+.marcas-fertilizantes, .marcas-sustratos, .marcas-indor, .marcas-parafernalia {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -429,20 +430,26 @@ main {
   box-sizing: border-box; }
 
 .main-productos {
-  height: 90vh; }
+  height: 100%; }
 
 .descripcion-productos h2 {
   font-size: 45px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px; }
 
 .descripcion-fertilizantes {
   font-size: 25px;
   text-align: center;
   font-family: 'Noto Serif', serif; }
 
+.descripcion-productos p {
+  margin-top: 10px; }
+
 .box-productos-lista {
   width: 100%;
-  justify-items: center; }
+  justify-items: center;
+  border-bottom: 3px solid #68c05c;
+  padding-bottom: 5px; }
 
 .box-productos-lista li {
   height: 50px;
@@ -455,7 +462,8 @@ main {
   transition: transform 0.3s ease; }
 
 .box-productos-lista li:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+  border: 2px solid #68c05c; }
 
 .marcas {
   justify-content: center; }

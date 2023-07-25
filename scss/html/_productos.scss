@@ -9,7 +9,8 @@
     box-sizing: border-box
 }
 .main-productos{
-    height: 90vh;
+    height: 100%;
+    
    
 
 
@@ -19,6 +20,7 @@
     
     font-size: 45px;
     text-align: center;
+    margin-top: 10px;
 
       
     
@@ -29,6 +31,13 @@
     font-family: 'Noto Serif', serif;
 }
 .descripcion-productos p {
+    @extend %fuentes2;
+    margin-top: 10px
+    
+
+}
+
+.descripcion-indor{
     @extend %fuentes3;
 
 }
@@ -36,7 +45,9 @@
 .box-productos-lista{
     @extend %grid-productos;
     width: 100%;
-    justify-items: center
+    justify-items: center;
+    border-bottom: 3px solid $color-secundario;
+    padding-bottom: 5px
     
     
 }
@@ -48,6 +59,7 @@
 }
 .box-productos-lista li:hover{
     transform: scale(1.2);
+    border: 2px solid $color-secundario; 
 }
 .marcas{
     @extend %grid-productos; 
@@ -75,4 +87,11 @@ align-items: center;
 .marcas-sustratos{
     @extend %box-marcas;
 
+}
+
+.marcas-indor{
+    @extend %box-marcas;
+}
+.marcas-parafernalia{
+    @extend %box-marcas;
 }
