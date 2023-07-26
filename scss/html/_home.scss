@@ -34,8 +34,19 @@ main{
 .box-main-logo {
     text-align: center; 
     margin-bottom: 50px;
-    
+    animation-duration: 6s;
+    animation-name:animacion;
+    animation-iteration-count: initial
 }  
+
+@keyframes animacion{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
 
 .box-frase h2 {
     @extend %fuentes2;
@@ -61,3 +72,6 @@ main{
     text-align: center;
     padding:10px;
 }
+
+
+

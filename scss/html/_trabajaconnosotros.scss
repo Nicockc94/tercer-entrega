@@ -2,7 +2,6 @@
 @import"../utilidades/extend";
 @import"../utilidades/mixin";
 @import"../html/mqtablet";
-@import"../html/mqdesktop";
 
 
 
@@ -16,8 +15,10 @@
        
 }
 
-.box-propuesta-titulo h2 {
-    @include titulosh2;
+.box-propuesta-titulo h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Noto Serif', serif;
 }
 
 .box-propuesta-titulo p {

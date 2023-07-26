@@ -1,8 +1,8 @@
 @import"../utilidades/variables";
 @import"../utilidades/extend";
 @import"../utilidades/mixin";
-@import"../html/mqtablet";
-@import"../html/mqdesktop";
+
+
 
 
 a{
@@ -75,10 +75,7 @@ a:visited {
     justify-content: center
 }
 
-.marcas-fertilizantes{
-    @extend %box-marcas;
-   
-}
+
 .marcas-fertilizantes img {
 align-items: center;
 
@@ -93,15 +90,31 @@ align-items: center;
     box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7);
 }
 
+
+   
+
+
+.box-productos img{
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
 .marcas-sustratos{
-    @extend %box-marcas;
-
+    text-align: center;
+    
 }
 
-.marcas-indor{
-    @extend %box-marcas;
+.marcas-indor {
+    text-align: center;
 }
+
 .marcas-parafernalia{
-    @extend %box-marcas;
+    text-align: center;
 }
+
+.marcas-fertilizantes{
+    text-align: center;
+}
+
+    
 

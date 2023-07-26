@@ -1,9 +1,11 @@
 @import"../utilidades/variables";
 @import"../utilidades/extend";
+@import"../utilidades/mixin";
 
 
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px ) and (max-width: 1023px) {
+
     
    //medidas de contactos
 
@@ -37,42 +39,50 @@
     
    }
 
-}
    //estilos de productos
-   @media (min-width: 600px) {
-
-      
-      
-     .marcas-fertilizantes{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-template-rows: 1fr 1fr;  
-      }
-
-      .marcas-sustratos{
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-template-rows: 1fr 1fr;
-      }
-
-      .marcas-indor{
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-template-rows: 1fr 1fr;
-      }
-
-      .marcas-parafernalia{
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-template-rows: 1fr 1fr;
-      }
+  
+     
       .box-productos img {
-         width: 291px;
+         width: 299px;
+         margin-left: 15px;
       }
-//mq de trabajaconnosotros
+     
+       .marcas-fertilizantes{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
 
 
-  }
+       }
+
+
+
+    //m de trabajaconnosotros
+ 
+     
+
+
+    .frase-final {
+      
+      
+      background-color: aqua;
+      p{
+         font-size: 30px;
+      }
+     
+      
+     }
+     
+     
+      
+   }
+   
+//m de trabajaconnosotros
+ 
+
+
+
+ 
 
 
 
