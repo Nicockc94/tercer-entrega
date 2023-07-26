@@ -26,18 +26,22 @@
       
     }
     .footer{
-        @include footer-font;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
-        height: 35px;
-        gap: 2px;
-    }
-    .footer p {
-      align-items: end;
-        height: 35px;
-       
-    }
+        display:flex;
+        flex-direction:row;
+        
+        justify-content: space-between;
+        height: 100%;
+        p{
+           font-size: 20px;
+  
+        }
+     }
+
+     
+     textarea {
+       width: 400px;
+       height: 300px;
+     }
   
     //medidas de contactos 
 
@@ -62,37 +66,34 @@
 .marcas-fertilizantes{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: aqua;
+    justify-content: space-between;
+    row-gap: 20px;
+   
 }
 
 .marcas-sustratos{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-between;
 
 }
 .marcas-indor{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-between;
         
     }
     .marcas-parafernalia{
         display:flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
        
     }
 
-
-   
-
-   
-
-    
+  .carousel {
+    display: none;
+  }
 }
-
 
 
 

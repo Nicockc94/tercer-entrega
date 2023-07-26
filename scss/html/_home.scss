@@ -18,6 +18,10 @@ body{
 
 //estilos header general
 header{
+    background-image:url(/assets/img/banners/banner-header-general.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     @extend %index-header-mobile;
     h1{
         
@@ -68,10 +72,12 @@ main{
 
 
 
-.footer p {
+.footer {
+    border-top:3px solid $color-secundario;
+     p {
     text-align: center;
-    padding:10px;
+    padding:3px;
+     }
+
+
 }
-
-
-

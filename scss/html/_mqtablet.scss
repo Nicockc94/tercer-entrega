@@ -7,6 +7,21 @@
 @media screen and (min-width: 600px ) and (max-width: 1023px) {
 
     
+
+   .footer{
+      display:flex;
+      flex-direction:row;
+      
+      justify-content: space-between;
+      height: 100%;
+      p{
+         font-size: 15px;
+
+      }
+   }
+
+
+
    //medidas de contactos
 
    .box-redes div p {
@@ -32,13 +47,7 @@
 
    }
    
-   .footer-contacto{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 1fr 1 fr;
-    
-   }
-
+ 
    //estilos de productos
   
      
@@ -52,45 +61,93 @@
          grid-template-columns: 1fr 1fr;
          grid-template-rows: 1fr 1fr;
 
-
        }
 
+       .marcas-sustratos{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
 
+       }
+       .marcas-parafernalia{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
+
+       }
+       .marcas-indor{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
+        
+       }
 
     //m de trabajaconnosotros
  
      
 
 
-    .frase-final {
-      
-      
-      background-color: aqua;
+    .frase-final { 
       p{
-         font-size: 30px;
+         font-size: 25px;
       }
-     
       
-     }
-     
-     
-      
+     }  
+   
+   
+//concidere que el html "trabaja con nosotros no encesitaba  esta mq
+
+
+//medidas nuestra historia 
+
+
+
+section{
+   
+   display: flex;
+   flex-direction: column;
+    div{
+       text-align: center;
+
+       .p{
+           margin:10px;
+           border-bottom: 4px solid $color-secundario;
+       }
    }
    
-//m de trabajaconnosotros
+}
  
+main h2{
+   
+      font-size: 50px;
+   
+}
+
+.titulos-historia{
+ h2{
+   
+   font-size: 50px;  
+}
+h3{
+   font-size: 35px;
+   text-align: center;
+}
+
+}
 
 
+.carousel{
+   display: none;
+}
 
- 
-
-
-
-
-
-
-
-
+.galeria{
+   display: inline-block;
+}
 
   
+
+
+
+}
+
   
