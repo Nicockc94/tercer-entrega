@@ -25,7 +25,7 @@ header{
     @extend %index-header-mobile;
     h1{
         
-        font-size: 70px;
+        font-size: 300%;
         text-align: center;
         margin-top: 25px;
     }
@@ -37,11 +37,14 @@ main{
 }
 .box-main-logo {
     text-align: center; 
-    margin-bottom: 50px;
     animation-duration: 6s;
     animation-name:animacion;
     animation-iteration-count: initial
+   
 }  
+.box-main-logo img {
+    margin-bottom: 100px;
+}
 
 @keyframes animacion{
     0%{
@@ -56,28 +59,19 @@ main{
     @extend %fuentes2;
 }
 
+
 .footer{
     
     font-family: 'Noto Serif', serif;
     @extend %index-footer-mobile; 
 }
-.nav-link {
-    transition: transform 0.3s ease;
-}
-.nav-link:hover{
-    transform: scale(1.2);
 
-}
-//hover nav 
-
-
-
-.footer {
-    border-top:3px solid $color-secundario;
-     p {
+.footer p {
     text-align: center;
     padding:3px;
-     }
+ }
+
+ 
 
 
-}
+

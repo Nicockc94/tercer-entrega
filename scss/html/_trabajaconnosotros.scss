@@ -23,7 +23,6 @@
 }
 
 
-
 .box-propuesta-titulo p {
     @include texto;
 
@@ -39,16 +38,6 @@
 form p {
     @include texto;
 } 
-
-h2{
-    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
-    transition: box-shadow 0.3s;
-}
-
-h2:hover{
-    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7);
-
-}
 
 input{
      

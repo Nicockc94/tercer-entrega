@@ -7,7 +7,10 @@
 @media screen and (min-width: 600px ) and (max-width: 1023px) {
 
     
-
+  //modificaciondes del home para medidas de escritorio
+   h1{
+      font-size: 90px;
+   }
    .footer{
       display:flex;
       flex-direction:row;
@@ -19,6 +22,7 @@
 
       }
    }
+   
 
 
 

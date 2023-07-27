@@ -4,16 +4,15 @@
 
 main{
     height: 100%;
-
     h2{
-        font-size: 35px;
+        font-size: 45px;
         text-align: center;
-        font-family: 'Noto Serif', serif;
-         
+        font-family: 'Noto Serif', serif;      
  }
- h3{
+    h3{
     font-size: 30px;
- }
+    text-align: center;
+     }
 }
 
 
@@ -25,9 +24,9 @@ main{
         margin-left: 10%;
         margin-right: 10%;
 
-        .p{
-            margin:10px;
-            border-bottom: 4px solid $color-secundario;
+    .p{
+        margin:10px;
+        border-bottom: 4px solid $color-secundario;
         }
     }
     

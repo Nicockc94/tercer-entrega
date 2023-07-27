@@ -56,16 +56,18 @@ header {
   background-repeat: no-repeat;
   background-size: cover; }
   header h1 {
-    font-size: 70px;
+    font-size: 300%;
     text-align: center;
     margin-top: 25px; }
 
 .box-main-logo {
   text-align: center;
-  margin-bottom: 50px;
   animation-duration: 6s;
   animation-name: animacion;
   animation-iteration-count: initial; }
+
+.box-main-logo img {
+  margin-bottom: 100px; }
 
 @keyframes animacion {
   0% {
@@ -76,17 +78,9 @@ header {
 .footer {
   font-family: 'Noto Serif', serif; }
 
-.nav-link {
-  transition: transform 0.3s ease; }
-
-.nav-link:hover {
-  transform: scale(1.2); }
-
-.footer {
-  border-top: 3px solid #68c05c; }
-  .footer p {
-    text-align: center;
-    padding: 3px; }
+.footer p {
+  text-align: center;
+  padding: 3px; }
 
 header {
   display: flex;
@@ -263,6 +257,8 @@ main {
   grid-template-rows: 1 fr 1fr; }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
+  h1 {
+    font-size: 90px; }
   .footer {
     display: flex;
     flex-direction: row;
@@ -633,6 +629,8 @@ main {
   grid-template-rows: 1 fr 1fr; }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
+  h1 {
+    font-size: 90px; }
   .footer {
     display: flex;
     flex-direction: row;
@@ -728,13 +726,6 @@ form p {
   font-size: 19px;
   font-family: 'Noto Serif', serif; }
 
-h2 {
-  box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
-  transition: box-shadow 0.3s; }
-
-h2:hover {
-  box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7); }
-
 input {
   transition: box-shadow 0.3s; }
 
@@ -793,11 +784,12 @@ main {
 main {
   height: 100%; }
   main h2 {
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
     font-family: 'Noto Serif', serif; }
   main h3 {
-    font-size: 30px; }
+    font-size: 30px;
+    text-align: center; }
 
 .historia {
   display: flex;
