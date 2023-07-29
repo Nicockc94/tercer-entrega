@@ -43,7 +43,7 @@ main{
    
 }  
 .box-main-logo img {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 @keyframes animacion{
@@ -57,13 +57,20 @@ main{
 
 .box-frase h2 {
     @extend %fuentes2;
+    animation-duration: 10s;
+    animation-name:animacion;
+    animation-iteration-count: initial
 }
 
 
 .footer{
     
-    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
     @extend %index-footer-mobile; 
+    @extend %fuentes2;
+    animation-duration: 15s;
+    animation-name:animacion;
+    animation-iteration-count: initial
 }
 
 .footer p {

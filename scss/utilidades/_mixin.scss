@@ -15,7 +15,7 @@
     height: 50px;
     list-style: none;
     text-align: center;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
     width: 200px;
     justify-content: center;
     font-size: 30px;
@@ -24,14 +24,14 @@
 @mixin titulosh2{
     text-align: center;
     font-size: 30px;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
  
 }
 
 @mixin texto{
 text-align: center;
 font-size: 19px;
-font-family: 'Noto Serif', serif;
+font-family: 'Roboto', sans-serif;
 
 
 }

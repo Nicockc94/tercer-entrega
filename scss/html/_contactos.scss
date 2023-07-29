@@ -11,7 +11,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top:5px solid $color-secundario;
+    border-bottom: 5px solid $color-secundario;
 }
 
 .box-redes div img {
@@ -62,7 +65,7 @@
 
 
 .footer-contacto{
-    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
     @extend %index-footer-mobile; 
     text-align:center;
 }

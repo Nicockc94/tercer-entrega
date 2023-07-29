@@ -29,21 +29,31 @@ a:visited {
 
 
 .descripcion-productos h2{ 
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
     margin-top: 10px;
-    font-family: 'Noto Serif', serif;        
+    font-family: 'Roboto', sans-serif;
+    color: grey;    
 }
 
 .descripcion-fertilizantes{
     font-size: 25px;
     text-align: center;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
 }
-.descripcion-productos p {
-    @extend %fuentes2;
-    margin-top: 10px
-    
+
+//Textos principales de la pestaña de Productos//
+
+.texto1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto2{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -56,8 +66,9 @@ a:visited {
     @extend %grid-productos;
     width: 100%;
     justify-items: center;
-    border-bottom: 3px solid $color-secundario;
-    padding-bottom: 5px
+    border-bottom: 5px solid $color-secundario;
+    padding-bottom: 5px;
+    border-top: 5px solid $color-secundario;
     
     
 }
