@@ -32,6 +32,10 @@ main{
     
 }
 
+.box-inicio{
+    @extend %boxgrey;
+}
+
 .carousel{
     box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
     transition: box-shadow 0.3s;
@@ -101,16 +105,16 @@ a:hover{
       box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
         transition: box-shadow 0.3s;
 }
+
 .galeria div img:hover{
     box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7);
 }
 
     
-
-   .foto7 .foto4{
+.foto7 .foto4{
     background-color: aqua;
     width: auto;
-   }
+}
 
 .img7{
    width: auto;

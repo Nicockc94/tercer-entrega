@@ -47,15 +47,7 @@
 
 
 
-    .footer-contacto{
-        @include footer-font;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
-        height: 35px;
-        gap: 2px;
-
-    }
+    
 
     .box-propuesta h2 {
         font-size: 30px;

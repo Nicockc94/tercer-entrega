@@ -43,7 +43,16 @@
     flex-direction: column;
     text-align: center;
     margin-bottom: 10px;
-    height: 80vh;
+    height: 90vh;
+}
+
+%redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
 }
 
 %contacto-main-tablet{
@@ -70,7 +79,14 @@
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1 fr 1fr;
     
+}
 
+
+%boxgrey{
+    background-color: grey;
+    border-radius: 7px;
+    margin: 10px;
+    
 }
 
 

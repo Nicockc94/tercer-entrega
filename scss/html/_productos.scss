@@ -66,9 +66,9 @@ a:visited {
     @extend %grid-productos;
     width: 100%;
     justify-items: center;
-    border-bottom: 5px solid $color-secundario;
     padding-bottom: 5px;
-    border-top: 5px solid $color-secundario;
+    @extend %boxgrey;
+    
     
     
 }
@@ -80,7 +80,7 @@ a:visited {
 }
 .box-productos-lista li:hover{
     transform: scale(1.2);
-    border: 2px solid $color-secundario; 
+    
 }
 .marcas{
     @extend %grid-productos; 

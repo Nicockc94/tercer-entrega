@@ -17,11 +17,14 @@
     }
     .box-propuesta-titulo h2{
         text-align: center;
-        font-size: 32px;
-        font-family: 'Noto Serif', serif;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
        
 }
 
+.box-propuesta-titulo{
+    @extend %boxgrey;
+}
 
 .box-propuesta-titulo p {
     @include texto;
@@ -29,14 +32,49 @@
 }
 .frase-final{
     @include texto;
+    background-image: url(/assets/img/banners/banner-propuesta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
 }
 .box-formulario label {
     margin-bottom: 15px;
     font-family: 'Roboto', sans-serif;
     margin-left:5px; 
 }
+
+.text-centro-formulario{
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente en el centro */
+    align-items: center;
+ 
+}
+
+.btn-enviar {
+    @extend %boxgrey;
+    padding: 3px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.btn-archivos{
+    @extend %boxgrey;
+    padding: 3px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
 form p {
     @include texto;
+    @extend %boxgrey;
+    width: 300px;
+    position: relative;
+   
+    
+    
 } 
 
 input{
@@ -53,3 +91,11 @@ textarea:hover{
     box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
     transition: box-shadow 0.3s;
 }
+
+
+  
+  
+  
+  
+  
+  

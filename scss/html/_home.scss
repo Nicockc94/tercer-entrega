@@ -70,11 +70,13 @@ main{
     @extend %fuentes2;
     animation-duration: 15s;
     animation-name:animacion;
-    animation-iteration-count: initial
+    align-items: center;
+    
 }
 
 .footer p {
-    text-align: center;
+   
+    margin-top: 50px;
     padding:3px;
  }
 
