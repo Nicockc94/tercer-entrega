@@ -27,7 +27,7 @@ header{
         
         font-size: 300%;
         text-align: center;
-        margin-top: 25px;
+        margin-top: 30px;
     }
 }
 
@@ -39,7 +39,9 @@ main{
     text-align: center; 
     animation-duration: 6s;
     animation-name:animacion;
-    animation-iteration-count: initial
+    animation-iteration-count: initial;
+    margin-top: 50px;
+    margin-bottom: 50px;
    
 }  
 .box-main-logo img {

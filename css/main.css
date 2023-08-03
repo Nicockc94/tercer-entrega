@@ -8,12 +8,12 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .descripcion-indor {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
 
 main {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 20px; }
 
 .footer {
@@ -40,7 +40,9 @@ main {
 .box-productos-lista, .marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1 fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
 
 .box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
   background-color: grey;
@@ -63,13 +65,15 @@ header {
   header h1 {
     font-size: 300%;
     text-align: center;
-    margin-top: 25px; }
+    margin-top: 30px; }
 
 .box-main-logo {
   text-align: center;
   animation-duration: 6s;
   animation-name: animacion;
-  animation-iteration-count: initial; }
+  animation-iteration-count: initial;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .box-main-logo img {
   margin-bottom: 10px; }
@@ -109,12 +113,12 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .descripcion-indor {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
 
 main {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 20px; }
 
 .footer {
@@ -141,7 +145,9 @@ main {
 .box-productos-lista, .marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1 fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
 
 .box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
   background-color: grey;
@@ -178,7 +184,7 @@ main {
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
-  background-image: url(/assets/img/banners/banner-propuesta.jpg); }
+  background-image: url(../assets/img/banners/banner-propuesta.jpg); }
 
 .img-click {
   transition: transform 0.3s ease; }
@@ -196,12 +202,12 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .descripcion-indor {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
 
 main {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 20px; }
 
 .footer {
@@ -228,7 +234,9 @@ main {
 .box-productos-lista, .marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1 fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
 
 .box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
   background-color: grey;
@@ -245,12 +253,12 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .descripcion-indor {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
 
 main {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 20px; }
 
 .footer {
@@ -277,7 +285,9 @@ main {
 .box-productos-lista, .marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1 fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
 
 .box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
   background-color: grey;
@@ -357,12 +367,12 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .descripcion-indor {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
 
 main {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 20px; }
 
 .footer {
@@ -389,7 +399,9 @@ main {
 .box-productos-lista, .marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1 fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
 
 .box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
   background-color: grey;
@@ -449,12 +461,12 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .descripcion-indor {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
 
 main {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 20px; }
 
 .footer {
@@ -481,7 +493,9 @@ main {
 .box-productos-lista, .marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1 fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
 
 .box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
   background-color: grey;
@@ -506,7 +520,7 @@ a:visited {
   height: 100%; }
 
 .descripcion-productos h2 {
-  font-size: 55px;
+  font-size: 40px;
   text-align: center;
   margin-top: 10px;
   font-family: 'Roboto', sans-serif;
@@ -528,8 +542,6 @@ a:visited {
   font-family: 'Roboto', sans-serif; }
 
 .box-productos-lista {
-  width: 99%;
-  justify-items: center;
   padding-bottom: 5px; }
 
 .box-productos-lista li {
@@ -540,7 +552,9 @@ a:visited {
   width: 200px;
   justify-content: center;
   font-size: 30px;
-  transition: transform 0.3s ease; }
+  transition: transform 0.3s ease;
+  font-size: 15px;
+  padding-top: 10px; }
 
 .box-productos-lista li:hover {
   transform: scale(1.2); }
@@ -584,12 +598,12 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .descripcion-indor {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
 
 main {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 20px; }
 
 .footer {
@@ -616,7 +630,9 @@ main {
 .box-productos-lista, .marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1 fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
 
 .box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
   background-color: grey;
@@ -633,12 +649,12 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .descripcion-indor {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
 
 main {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 20px; }
 
 .footer {
@@ -665,7 +681,9 @@ main {
 .box-productos-lista, .marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1 fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
 
 .box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
   background-color: grey;
@@ -744,8 +762,12 @@ main {
 
 .box-propuesta-titulo h2 {
   text-align: center;
-  font-size: 50px;
-  font-family: 'Roboto', sans-serif; }
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 3px outset black; }
+
+.box-propuesta-titulo p {
+  padding-bottom: 10px; }
 
 .box-propuesta-titulo p {
   text-align: center;
@@ -810,12 +832,12 @@ header {
   font-family: 'Roboto', sans-serif; }
 
 .descripcion-indor {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Roboto', sans-serif; }
 
 main {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 20px; }
 
 .footer {
@@ -842,7 +864,9 @@ main {
 .box-productos-lista, .marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1 fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
 
 .box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
   background-color: grey;

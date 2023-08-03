@@ -29,7 +29,7 @@ a:visited {
 
 
 .descripcion-productos h2{ 
-    font-size: 55px;
+    font-size: 40px;
     text-align: center;
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
@@ -65,18 +65,21 @@ a:visited {
 
 .box-productos-lista{
     @extend %grid-productos;
-    width: 99%;
-    justify-items: center;
     padding-bottom: 5px;
     @extend %boxgrey;
     
-    
-    
+   
 }
+
+
 
 .box-productos-lista li {
     @include boton-producto;
     transition: transform 0.3s ease;
+    font-size: 15px;
+    padding-top: 10px;
+   
+ 
    
 }
 .box-productos-lista li:hover{
