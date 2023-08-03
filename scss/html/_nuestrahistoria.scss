@@ -26,7 +26,7 @@ main{
 
     .p{
         margin:10px;
-        border-bottom: 4px solid $color-secundario;
+        border-bottom: 15hs
         }
     }
     
@@ -52,17 +52,18 @@ main{
     display: none;
 }
 .subir{
-    margin-top:10px;
+    
     height: 100%;
-    font-size: 40px;
-   text-align: center;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+   
+  
     
    a{ 
-    align-self: auto;
-    padding-bottom: 7px;
-    border: 5px outset $color-secundario;
-    padding-left: 5px;
-    padding-right: 5px;
+    @extend %boxgrey;
+    padding: 10px auto;
+    
 }
 a:hover{
     background-color: $color-secundario;
@@ -73,15 +74,24 @@ a:hover{
 // tuve problemas con la mq de este html , a asi que por el momento la deje aca , prometo reacomodarla
 
 @media screen and (min-width: 600px ) and (max-width: 1023px) { 
+  
     .galeria{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 10px;
-    } 
-    
-   
+
+        display: grid;
+        grid-template-columns:  1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        text-align: center;
+        row-gap: 10px;
+        
+       
+    }
+   .foto4{
+        display: none;
+    }
+    .foto7{
+        display: none;
+    }
+
 }
 
 // medidas escritorio
@@ -89,21 +99,21 @@ a:hover{
 
     .galeria{
         display:grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr ;
         row-gap: 10px;
+        text-align: center;
       
     }
     
-    .galeria div {
-        margin: 0px;
-        padding: 0px;
+ 
         
 }
 
 .galeria div img {
       box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
         transition: box-shadow 0.3s;
+        width: 90%;
 }
 
 .galeria div img:hover{
@@ -116,16 +126,8 @@ a:hover{
     width: auto;
 }
 
-.img7{
-   width: auto;
-
-}
-.img4{
-    width: 92%;
-}
-
 
        
     
-}
+
 

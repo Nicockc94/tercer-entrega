@@ -58,7 +58,7 @@
 .marcas-fertilizantes{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-around;
     row-gap: 20px;
    
 }
@@ -66,19 +66,19 @@
 .marcas-sustratos{
     display:flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
 
 }
 .marcas-indor{
     display:flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
         
     }
     .marcas-parafernalia{
         display:flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content:space-around;
        
     }
 ////////////////// nuestra historia///////////////////// 

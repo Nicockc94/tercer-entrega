@@ -113,16 +113,8 @@
 
 section{
    
-   display: flex;
-   flex-direction: column;
-    div{
-       text-align: center;
-
-       .p{
-           margin:10px;
-           border-bottom: 4px solid $color-secundario;
-       }
-   }
+ display: grid;
+ grid-template-columns: repeat(2, minmax (300px 600px) );
    
 }
  
@@ -155,8 +147,8 @@ h3{
 
   
 
-
-
 }
+
+
 
   
