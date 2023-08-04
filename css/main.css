@@ -321,6 +321,16 @@ main {
     width: 320px;
     text-align: center;
     margin-bottom: 60px; }
+  .box-productos-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 50px; }
+  .box-productos-lista a {
+    margin-left: 85px; }
   .box-productos img {
     width: 299px;
     margin-left: 15px; }
@@ -431,6 +441,8 @@ main {
     height: 300px; }
   .box-propuesta h2 {
     font-size: 30px; }
+  .box-productos-lista a {
+    margin-left: 220px; }
   .marcas-fertilizantes {
     display: flex;
     flex-direction: row;
@@ -554,7 +566,8 @@ a:visited {
   font-size: 30px;
   transition: transform 0.3s ease;
   font-size: 15px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-left: 15px; }
 
 .box-productos-lista li:hover {
   transform: scale(1.2); }
@@ -717,6 +730,16 @@ main {
     width: 320px;
     text-align: center;
     margin-bottom: 60px; }
+  .box-productos-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 50px; }
+  .box-productos-lista a {
+    margin-left: 85px; }
   .box-productos img {
     width: 299px;
     margin-left: 15px; }

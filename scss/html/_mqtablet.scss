@@ -59,7 +59,22 @@
  
    //estilos de productos
   
+   .box-productos-lista{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      align-items: center;
+      margin:0px;
+      padding: 0px;
+      margin-left: 50px;
+   }
      
+   .box-productos-lista a{
+   margin-left: 85px;
+   
+   }
+   
+  
       .box-productos img {
          width: 299px;
          margin-left: 15px;

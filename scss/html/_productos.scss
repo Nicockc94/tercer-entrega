@@ -71,13 +71,16 @@ a:visited {
    
 }
 
-
+.box-productos-lista a{
+    
+}
 
 .box-productos-lista li {
     @include boton-producto;
     transition: transform 0.3s ease;
     font-size: 15px;
     padding-top: 10px;
+    margin-left: 15px;
    
  
    
