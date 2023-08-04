@@ -57,7 +57,7 @@
    }
    
  
-   //estilos de productos
+   /////////////////////////////////////////estilos de productos////////////////////////////////////////////////
   
    .box-productos-lista{
       display: grid;
@@ -119,19 +119,14 @@
      }  
    
    
-//concidere que el html "trabaja con nosotros no encesitaba  esta mq
-
-
-//medidas nuestra historia 
 
 
 
-section{
-   
- display: grid;
- grid-template-columns: repeat(2, minmax (300px 600px) );
-   
-}
+////////////////////////////////////////medidas nuestra historia ///////////////////////////////////////
+
+
+
+
  
 main h2{
    
@@ -151,19 +146,48 @@ h3{
 
 }
 
-
+///////////////////////////////////////////carousel inactivo////////////////////////////////
 .carousel{
    display: none;
 }
 
-.galeria{
-   display: inline-block;
+
+   .galeria{
+
+       display: grid;
+       grid-template-columns:  1fr  1fr ;
+       grid-template-rows: 1fr  1fr;
+       text-align: center;
+       row-gap: 10px;
+       
+      
+   }
+
+
+  .foto4{
+       display: none;
+   }
+   .foto7{
+       display: none;
+   }
+
+
+       
+
+.galeria div img {
+     box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5); 
+       transition: box-shadow 0.3s;
+       width: 90%;
+}
+
+.galeria div img:hover{
+   box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7);
+}
+  
+.foto7 .foto4{
+   background-color: aqua;
+   width: auto;
 }
 
   
-
 }
-
-
-
-  

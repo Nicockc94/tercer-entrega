@@ -3,8 +3,8 @@
 @import"../utilidades/mixin";
 @import"../html/mqtablet";
 
-
-
+//////////////////////////   estilos generales de el html trabajaconnosotros  ///////////////////////////////////
+//////////////////////////   Teniendo en cuenta la modalida Mobile Fist      ///////////////////////////////////
 .main-propuesta{
     height:100%;
 }
@@ -26,9 +26,7 @@
     padding-bottom: 10px;
 
 }
-.br{
- 
-}
+
 
 .box-propuesta-titulo{
     @extend %boxgrey;
@@ -53,7 +51,7 @@
 
 .text-centro-formulario{
     display: flex;
-    justify-content: center; /* Alinea horizontalmente en el centro */
+    justify-content: center; 
     align-items: center;
  
 }
@@ -80,9 +78,7 @@ form p {
     @extend %boxgrey;
     width: 300px;
     position: relative;
-   
-    
-    
+      
 } 
 
 input{

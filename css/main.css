@@ -294,226 +294,6 @@ main {
   border-radius: 7px;
   margin: 10px; }
 
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-  h1 {
-    font-size: 90px; }
-  .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%; }
-    .footer p {
-      font-size: 15px; }
-  .h2contacto {
-    font-size: 45px; }
-  .box-redes div p {
-    display: block;
-    font-family: 'Noto Serif', serif; }
-  .main-contacto {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 90vh; }
-  .box-ubicacion-mapa {
-    margin-bottom: 30px;
-    height: 305px; }
-  .box-ubicacion-mapa img {
-    width: 320px;
-    text-align: center;
-    margin-bottom: 60px; }
-  .box-productos-lista {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    margin: 0px;
-    padding: 0px;
-    margin-left: 50px; }
-  .box-productos-lista a {
-    margin-left: 85px; }
-  .box-productos img {
-    width: 299px;
-    margin-left: 15px; }
-  .marcas-fertilizantes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
-  .marcas-sustratos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
-  .marcas-parafernalia {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
-  .marcas-indor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
-  .frase-final p {
-    font-size: 25px; }
-  section {
-    display: grid;
-    grid-template-columns: repeat(2, minmax 300px 600px); }
-  main h2 {
-    font-size: 50px; }
-  .titulos-historia h2 {
-    font-size: 50px; }
-  .titulos-historia h3 {
-    font-size: 35px;
-    text-align: center; }
-  .carousel {
-    display: none; }
-  .galeria {
-    display: inline-block; } }
-
-header {
-  display: flex;
-  flex-direction: column; }
-
-.box-frase h2, .footer {
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif; }
-
-.descripcion-indor {
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif; }
-
-main {
-  height: 100vh;
-  margin-bottom: 20px; }
-
-.footer {
-  height: 30px;
-  display: flex;
-  flex-direction: row;
-  font-size: 11px;
-  font-family: 'Roboto', sans-serif; }
-
-.main-contacto {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 10px;
-  height: 90vh; }
-
-.box-redes {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 15px;
-  padding-bottom: 5px; }
-
-.box-productos-lista, .marcas {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-content: center;
-  align-items: center; }
-
-.box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
-  background-color: grey;
-  border-radius: 7px;
-  margin: 10px; }
-
-@media screen and (min-width: 1024px) {
-  .marcas-fertilizantes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-  .box-main-logo {
-    margin-bottom: 5px; }
-  .box-main-logo img {
-    padding-top: 14px;
-    width: 500px;
-    height: 500px; }
-  .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%; }
-    .footer p {
-      font-size: 20px; }
-  textarea {
-    width: 400px;
-    height: 300px; }
-  .box-propuesta h2 {
-    font-size: 30px; }
-  .box-productos-lista a {
-    margin-left: 220px; }
-  .marcas-fertilizantes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    row-gap: 20px; }
-  .marcas-sustratos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-  .marcas-indor {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-  .marcas-parafernalia {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; }
-  .carousel {
-    display: none; } }
-
-header {
-  display: flex;
-  flex-direction: column; }
-
-.box-frase h2, .footer {
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif; }
-
-.descripcion-indor {
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif; }
-
-main {
-  height: 100vh;
-  margin-bottom: 20px; }
-
-.footer {
-  height: 30px;
-  display: flex;
-  flex-direction: row;
-  font-size: 11px;
-  font-family: 'Roboto', sans-serif; }
-
-.main-contacto {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 10px;
-  height: 90vh; }
-
-.box-redes {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 15px;
-  padding-bottom: 5px; }
-
-.box-productos-lista, .marcas {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-content: center;
-  align-items: center; }
-
-.box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
-  background-color: grey;
-  border-radius: 7px;
-  margin: 10px; }
-
 a {
   text-decoration: none; }
 
@@ -761,9 +541,6 @@ main {
     grid-template-rows: 1fr 1fr; }
   .frase-final p {
     font-size: 25px; }
-  section {
-    display: grid;
-    grid-template-columns: repeat(2, minmax 300px 600px); }
   main h2 {
     font-size: 50px; }
   .titulos-historia h2 {
@@ -774,7 +551,24 @@ main {
   .carousel {
     display: none; }
   .galeria {
-    display: inline-block; } }
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr  1fr;
+    text-align: center;
+    row-gap: 10px; }
+  .foto4 {
+    display: none; }
+  .foto7 {
+    display: none; }
+  .galeria div img {
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+    transition: box-shadow 0.3s;
+    width: 90%; }
+  .galeria div img:hover {
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7); }
+  .foto7 .foto4 {
+    background-color: aqua;
+    width: auto; } }
 
 .main-propuesta {
   height: 100%; }
@@ -814,7 +608,6 @@ main {
 .text-centro-formulario {
   display: flex;
   justify-content: center;
-  /* Alinea horizontalmente en el centro */
   align-items: center; }
 
 .btn-enviar {
@@ -896,13 +689,151 @@ main {
   border-radius: 7px;
   margin: 10px; }
 
+header {
+  display: flex;
+  flex-direction: column; }
+
+.box-frase h2, .footer {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; }
+
+.descripcion-indor {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; }
+
 main {
-  height: 100%; }
+  height: 100vh;
+  margin-bottom: 20px; }
+
+.footer {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif; }
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 90vh; }
+
+.box-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  padding-bottom: 5px; }
+
+.box-productos-lista, .marcas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
+
+.box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
+  background-color: grey;
+  border-radius: 7px;
+  margin: 10px; }
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  h1 {
+    font-size: 90px; }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%; }
+    .footer p {
+      font-size: 15px; }
+  .h2contacto {
+    font-size: 45px; }
+  .box-redes div p {
+    display: block;
+    font-family: 'Noto Serif', serif; }
+  .main-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh; }
+  .box-ubicacion-mapa {
+    margin-bottom: 30px;
+    height: 305px; }
+  .box-ubicacion-mapa img {
+    width: 320px;
+    text-align: center;
+    margin-bottom: 60px; }
+  .box-productos-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 50px; }
+  .box-productos-lista a {
+    margin-left: 85px; }
+  .box-productos img {
+    width: 299px;
+    margin-left: 15px; }
+  .marcas-fertilizantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-sustratos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-parafernalia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-indor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .frase-final p {
+    font-size: 25px; }
   main h2 {
+    font-size: 50px; }
+  .titulos-historia h2 {
+    font-size: 50px; }
+  .titulos-historia h3 {
+    font-size: 35px;
+    text-align: center; }
+  .carousel {
+    display: none; }
+  .galeria {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr  1fr;
+    text-align: center;
+    row-gap: 10px; }
+  .foto4 {
+    display: none; }
+  .foto7 {
+    display: none; }
+  .galeria div img {
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+    transition: box-shadow 0.3s;
+    width: 90%; }
+  .galeria div img:hover {
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7); }
+  .foto7 .foto4 {
+    background-color: aqua;
+    width: auto; } }
+
+.titulos-historia {
+  height: 70%; }
+  .titulos-historia h2 {
     font-size: 45px;
     text-align: center;
     font-family: 'Noto Serif', serif; }
-  main h3 {
+  .titulos-historia h3 {
     font-size: 30px;
     text-align: center; }
 
@@ -930,44 +861,258 @@ main {
   display: none; }
 
 .subir {
-  height: 100%;
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center; }
+  .subir a {
+    padding: 10px; }
+
+a:hover {
+  background-color: #68c05c;
+  color: black; }
+
+header {
+  display: flex;
+  flex-direction: column; }
+
+.box-frase h2, .footer {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; }
+
+.descripcion-indor {
   font-size: 30px;
   text-align: center;
-  margin-top: 10px; }
-  .subir a {
-    padding: 10px auto; }
-  .subir a:hover {
-    background-color: #68c05c;
-    color: black; }
+  font-family: 'Roboto', sans-serif; }
+
+main {
+  height: 100vh;
+  margin-bottom: 20px; }
+
+.footer {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif; }
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 90vh; }
+
+.box-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  padding-bottom: 5px; }
+
+.box-productos-lista, .marcas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
+
+.box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
+  background-color: grey;
+  border-radius: 7px;
+  margin: 10px; }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  .galeria {
+  h1 {
+    font-size: 90px; }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%; }
+    .footer p {
+      font-size: 15px; }
+  .h2contacto {
+    font-size: 45px; }
+  .box-redes div p {
+    display: block;
+    font-family: 'Noto Serif', serif; }
+  .main-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh; }
+  .box-ubicacion-mapa {
+    margin-bottom: 30px;
+    height: 305px; }
+  .box-ubicacion-mapa img {
+    width: 320px;
+    text-align: center;
+    margin-bottom: 60px; }
+  .box-productos-lista {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 50px; }
+  .box-productos-lista a {
+    margin-left: 85px; }
+  .box-productos img {
+    width: 299px;
+    margin-left: 15px; }
+  .marcas-fertilizantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-sustratos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-parafernalia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .marcas-indor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .frase-final p {
+    font-size: 25px; }
+  main h2 {
+    font-size: 50px; }
+  .titulos-historia h2 {
+    font-size: 50px; }
+  .titulos-historia h3 {
+    font-size: 35px;
+    text-align: center; }
+  .carousel {
+    display: none; }
+  .galeria {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr  1fr;
     text-align: center;
     row-gap: 10px; }
   .foto4 {
     display: none; }
   .foto7 {
-    display: none; } }
+    display: none; }
+  .galeria div img {
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+    transition: box-shadow 0.3s;
+    width: 90%; }
+  .galeria div img:hover {
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7); }
+  .foto7 .foto4 {
+    background-color: aqua;
+    width: auto; } }
+
+header {
+  display: flex;
+  flex-direction: column; }
+
+.box-frase h2, .footer {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; }
+
+.descripcion-indor {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; }
+
+main {
+  height: 100vh;
+  margin-bottom: 20px; }
+
+.footer {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif; }
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 90vh; }
+
+.box-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  padding-bottom: 5px; }
+
+.box-productos-lista, .marcas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center; }
+
+.box-redes, .box-productos-lista, .box-propuesta-titulo, .btn-enviar, .btn-archivos, form p, .box-inicio, .subir a {
+  background-color: grey;
+  border-radius: 7px;
+  margin: 10px; }
 
 @media screen and (min-width: 1024px) {
+  .marcas-fertilizantes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .box-main-logo {
+    margin-bottom: 5px; }
+  .box-main-logo img {
+    padding-top: 14px;
+    width: 500px;
+    height: 500px; }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%; }
+    .footer p {
+      font-size: 20px; }
+  textarea {
+    width: 400px;
+    height: 300px; }
+  .box-propuesta h2 {
+    font-size: 30px; }
+  .box-productos-lista a {
+    margin-left: 220px; }
+  .marcas-fertilizantes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 20px; }
+  .marcas-sustratos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .marcas-indor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .marcas-parafernalia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .carousel {
+    display: none; }
   .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 10px;
-    text-align: center; } }
-
-.galeria div img {
-  box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
-  transition: box-shadow 0.3s;
-  width: 90%; }
-
-.galeria div img:hover {
-  box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7); }
-
-.foto7 .foto4 {
-  background-color: aqua;
-  width: auto; }
+    grid-template-rows: 1fr  1fr;
+    text-align: center;
+    row-gap: 20px; }
+  .galeria div img {
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+    transition: box-shadow 0.3s;
+    width: 90%; }
+  .galeria div img:hover {
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.7); } }
