@@ -1,5 +1,4 @@
 
- 
 @import"../utilidades/variables";
 @import"scss/utilidades/extend";
 
@@ -7,63 +6,76 @@
     @extend %contacto-main-mobile;
 }
 .h2contacto{
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
 }
 .box-redes{
     @extend  %redes;
-    @extend %boxgrey;
-    
-}
-.box-ubicacion-mapa{
- //poner medidas del contenedor
+    @extend %boxgrey;  
+   
 }
 
  .box-ubicacion{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
  }
+
+
+
 .box-redes div img {
-    transition: transform 0.3s ease;
-    
+    transition: transform 0.3s ease;   
 }
+
+
 .box-redes div img:hover {
     transform: scale(1.3);
     
 }
 .box-redes div P {
-    font-size: 20px;
-    
-    
+    font-size: 10px;   
 }
 
 
 .box-ubicacion-mapa-img:hover{
-    transform: scale(1.1);
-    
-        
+    transform: scale(1.1);          
 }
 
-.box-ubicacion-mapa-img{
-    
+
+.box-ubicacion-mapa-img{   
     transition: transform 0.3s ease;
 
+    margin-top: 40px;
 }
+
+
 .box-propuesta {
   @include propuestadetrabajo;
   background-image: url(../assets/img/banners/banner-propuesta.jpg);
-
 }
 
 .img-click {
     transition: transform 0.3s ease;
 }
+
+
 .img-click:hover{
-    transform: scale(1.4);
+    transform: scale(1.2);
+   
 }
 
+.box-propuesta a:hover{
+        background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.box-redes img:hover{
+    background-color: grey;
+
+
+}
 
 
 

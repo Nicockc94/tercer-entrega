@@ -2,9 +2,9 @@
 @import"../utilidades/variables";
 @import"scss/utilidades/extend";
 @import"../utilidades/mixin";
-// Estilos de home 
+//////////////////////////////////////////// Estilos de home ////////////////////////////////////
 
-//reset 
+////////reset ////////////////
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body{
     background-color:black;
 }
 
-//estilos header general
+///////////////////////////////////estilos header general/////////////////////
 header{
     background-image:url(../assets/img/banners/banner-header-general.jpg);
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@ main{
     animation-name:animacion;
     animation-iteration-count: initial;
     margin-top: 50px;
-    margin-bottom: 50px;
+   
    
 }  
 .box-main-logo img {
@@ -61,31 +61,41 @@ main{
     @extend %fuentes2;
     animation-duration: 10s;
     animation-name:animacion;
-    animation-iteration-count: initial
+    animation-iteration-count: initial;
+    margin-top:60px;
 }
 
-
 .footer{
-    
     font-family: 'Roboto', sans-serif;
     @extend %index-footer-mobile; 
     @extend %fuentes2;
     animation-duration: 15s;
     animation-name:animacion;
-    align-items: center;
-    
+    align-items: center;   
 }
 
+
 .footer p {
-   
-    margin-top: 50px;
-    padding:3px;
+ margin-top: 50px;
+ padding:3px;
  }
 
  .navbar-toggler-icon{
     background-color: grey;
     border-radius: 15%;
+ 
  }
+
+
+.container-fluid a img:hover {
+    background-color: black;   
+    
+
+}
+.container-fluid a:hover{
+    background-color: black;
+}
+
 
 
 

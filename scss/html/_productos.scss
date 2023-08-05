@@ -43,10 +43,10 @@ a:visited {
     font-family: 'Roboto', sans-serif;
 }
 
-//Textos principales de la pestaña de Productos//
+//////////Textos principales de la pestaña de Productos////////////////////
 
 .texto1{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -71,24 +71,25 @@ a:visited {
    
 }
 
-.box-productos-lista a{
-    
-}
 
 .box-productos-lista li {
     @include boton-producto;
     transition: transform 0.3s ease;
     font-size: 15px;
     padding-top: 10px;
-    margin-left: 15px;
-   
- 
-   
+    margin-left: 15px; 
 }
+
+.box-productos-lista a:hover{
+    background-color: rgba(0, 0, 0, 0.0);
+
+}
+
 .box-productos-lista li:hover{
-    transform: scale(1.2);
-    
+    transform: scale(1.2);   
 }
+
+
 .marcas{
     @extend %grid-productos; 
     justify-content: center
